@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" rel="stylesheet"/>
+    <meta charset="UTF-8">
+    <title>Pesquisa</title>
+</head>
+<body>
+<form action="@{/produto/pesquisar4}" method="post">
+    <input type="text" name="nome" placeholder="Digite o Nome">
+    <input type="submit" value="Pesquisar">
+</form>
+<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+<script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+</body>
+</html>
